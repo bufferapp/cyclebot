@@ -10,58 +10,58 @@ app = Flask(__name__)
 CYCLES = [
     {
         'name': 'Grizzly',
-        'start': '2017-05-01',
-        'end': '2017-06-09'
+        'start': 'May 01 2017',
+        'end': 'June 09 2017'
     },
     {
         'name': 'Kodiak',
-        'start': '2017-06-26',
-        'end': '2017-08-04'
+        'start': 'June 26 2017',
+        'end': 'August 04 2017'
     },
     {
         'name': 'Panda',
-        'start': '2017-08-21',
-        'end': '2017-09-29'
+        'start': 'August 21 2017',
+        'end': 'September 29 2017'
     },
     {
         'name': 'Polar',
-        'start': '2017-10-16',
-        'end': '2017-11-26'
+        'start': 'October 16 2017',
+        'end': 'November 26 2017'
     },
     {
         'name': 'Spirit',
-        'start': '2017-12-11',
-        'end': '2018-01-19'
+        'start': 'December 11 2017',
+        'end': 'January 19 2018'
     },
     {
         'name': 'Baloo',
-        'start': '2018-02-05',
-        'end': '2018-03-23'
+        'start': 'February 05 2018',
+        'end': 'March 23 2018'
     },
     {
         'name': 'Fozzie',
-        'start': '2018-04-09',
-        'end': '2018-05-18'
+        'start': 'April 09 2018',
+        'end': 'May 18 2018'
     },
     {
         'name': 'Gummi',
-        'start': '2018-06-04',
-        'end': '2018-07-13'
+        'start': 'June 04 2018',
+        'end': 'July 13 2018'
     },
     {
         'name': 'Smokey',
-        'start': '2018-07-30',
-        'end': '2018-09-07'
+        'start': 'July 30 2018',
+        'end': 'Semptember 07 2018'
     },
     {
         'name': 'Teddy',
-        'start': '2018-09-24',
-        'end': '2018-11-02'
+        'start': 'September 24 2018',
+        'end': 'November 02 2018'
     },
     {
         'name': 'Yogi',
-        'start': '2018-11-19',
-        'end': '2018-12-28'
+        'start': 'November 19 2018',
+        'end': 'December 28 2018'
     }
 ]
 
