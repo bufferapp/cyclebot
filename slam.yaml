@@ -1,0 +1,67 @@
+---
+# slam configuration file
+
+# the name and description of the project
+name: "cyclebot"
+description: "Deployed with slam."
+
+# function details
+function:
+  module: "cyclebot"
+  app: "app"
+
+# location of the requirements file for the project
+requirements: "requirements.txt"
+
+# the name of the development stage
+devstage: "dev"
+
+# environment variables common to all stages
+environment:
+  # define variables here as "key: value" pairs
+
+# environment variables specific to each stage
+# add or remove stages by editing the entries in this section
+stage_environments:
+  dev:
+    # define stage specific variables here as "key: value" pairs
+
+# AWS specific options
+aws:
+  # S3 bucket where lambda packages are stored
+  s3_bucket: "buffer-cyclebot"
+
+  # timeout in seconds for the lambda function
+  lambda_timeout: 10
+
+  # memory in MB for the lambda function
+  lambda_memory: 128
+
+  # the lambda runtime to use, such as python2.7 or python3.6
+  lambda_runtime: "python3.6"
+
+  # list of VPC security groups for the lambda function
+  # leave empty if no VPC access is required
+  lambda_security_groups:
+
+  # list of VPC subnet IDs
+  # leave empty if no VPC access is required
+  lambda_subnet_ids:
+
+  # list of additional managed policies for the lambda function
+  lambda_managed_policies:
+
+  # list of additional inline policies for the lambda function
+  lambda_inline_policies:
+
+  # additional cloudformation resources to include in the deployment
+  cfn_resources:
+
+  # additional cloudformation outputs to include in the deployment
+  cfn_outputs:
+
+
+wsgi:
+  deploy_api_gateway: true
+  log_stages:
+  - dev
